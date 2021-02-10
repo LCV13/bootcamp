@@ -1,0 +1,472 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #03002b;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Mont Bold";
+  src: url("./mont/AnyConv.com__Mont-Bold.woff");
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+@media screen and (min-width: 700px) {
+  header {
+    background-image: url("./img/header-desktop.png");
+    background-size: 115% 100%;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  header {
+    background-image: url("./img/header-desktop.png");
+    background-size: cover;
+  }
+}
+
+.btnConocerMas {
+  position: absolute;
+  font-family: "Judson", serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 27px;
+  bottom: 35px;
+  right: 30%;
+}
+
+@media screen and (min-width: 767px) {
+  .btnConocerMas {
+    right: 40%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .btnConocerMas {
+    right: 45%;
+  }
+}
+
+/*Primer Bloque*/
+
+.tituloUno {
+  font-family: "Mont Bold", sans-serif;
+  font-size: 35px;
+  color: #fff;
+  margin-top: 3rem;
+  text-align: center;
+  padding: 17px;
+  font-weight: bold;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+
+.textoUno {
+  font-family: "Judson", serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 39px;
+}
+
+.contenedorVideo {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 767px) {
+  iframe {
+    width: 716px;
+    height: 404px;
+  }
+}
+
+/*Segundo Bloque*/
+.segundoBloque {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tituloDos {
+  color: #d81919;
+  font-family: "Mont Bold", sans-serif;
+  font-size: 35px;
+  margin-top: 3rem;
+  text-align: center;
+  padding: 7px 10px;
+  line-height: 34px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.textoDos {
+  font-family: "Judson", serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 20px 50px;
+  line-height: 39px;
+  margin-bottom: 10px;
+}
+
+.imgSegundoBloque {
+  width: 270px;
+  height: 240px;
+  background-image: url("./img/img-segundoBloque.png");
+  margin: 70px auto 0 auto;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.listaSegundoBloque {
+  margin: 0 15%;
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+}
+
+.itemSegundoBloque {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Mont Bold", sans-serif;
+  margin: 40px;
+}
+
+.mapaSegundoBloque {
+  width: 340px;
+  height: 480px;
+  margin: 10px 0;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 676px) {
+  .imgSegundoBloque {
+    height: 519px;
+    width: 1040px;
+    background-image: url("./img/img-segundoBloque-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .mapaBloque {
+    background-color: #050320;
+    display: flex;
+    margin: 0;
+  }
+}
+
+/*tercer Bloque*/
+
+.tercerBloque {
+  background-color: #fff;
+  padding-top: 80px;
+}
+
+.textoTres {
+  font-family: "Mont Bold", sans-serif;
+  color: #03002b;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 21px 0;
+}
+
+.imgTercerBloque {
+  width: 100%;
+  height: 238px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 767px) {
+  .tercerBloque {
+    padding: 5% 10%;
+  }
+
+  .imagenesTercerBloque {
+    display: flex;
+    gap: 20px;
+  }
+  .imgTercerBloque {
+    width: 295px;
+    height: 138px;
+    object-fit: cover;
+    margin: 20px 0 90px 0;
+  }
+}
+@media screen and (min-width: 991px) {
+  .tercerBloque {
+    padding: 5% 15%;
+  }
+
+  .imgTercerBloque {
+    width: 395px;
+    height: 238px;
+    object-fit: cover;
+    margin: 20px 0 90px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tercerBloque {
+    padding: 5% 13%;
+  }
+
+  .imgTercerBloque {
+    width: 495px;
+    height: 338px;
+    object-fit: cover;
+    margin: 20px 0 90px 0;
+  }
+}
+
+/*Formulario*/
+
+.inputFormulario {
+  width: 90%;
+  padding: 8px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  margin: 50px 0 30px 20px;
+}
+
+.inputFormulario::placeholder {
+  font-size: 15px;
+  font-family: "Mont Bold", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.inputFormulario:focus {
+  outline: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  background-color: #03002b;
+}
+
+.btnFormulario {
+  width: 191px;
+  background: #03002b;
+  outline: none;
+  border: 2px solid #d81919;
+  color: #fff;
+  box-shadow: inset 0 0 0 0 #d81919;
+  transition: ease-out 0.3s;
+  text-transform: uppercase;
+  font-family: "Mont Bold", sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+.btnFormulario i {
+  margin-left: 5px;
+}
+.btnFormulario:hover {
+  box-shadow: inset 191px 0 0 0 #d81919;
+}
+
+@media screen and (min-width: 676px) {
+  .Formulario {
+    padding: 0 90px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .Formulario {
+    padding: 0 290px;
+  }
+}
+
+/*Quinto Bloque*/
+
+.quintoBloque {
+  background-color: #fff;
+  padding: 50px 15px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloTres {
+  color: #000;
+  font-family: "Mont Bold", sans-serif;
+  font-size: 35px;
+  margin-top: 3rem;
+  text-align: center;
+  padding: 7px 10px;
+  line-height: 34px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.textoCuatro {
+  font-family: "Judson", serif;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 39px;
+}
+
+.btnInscripcion {
+  width: 215px;
+  background: #fff;
+  border: 2px solid #d81919;
+  box-shadow: inset 0 0 0 0 #d81919;
+  transition: ease-out 0.3s;
+  outline: none;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Mont Bold", sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+  margin: 20px auto;
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 15px;
+}
+
+.btnInscripcion img {
+  margin-left: 5px;
+}
+
+.btnInscripcion:hover {
+  box-shadow: inset 250px 0 0 0 #d81919;
+}
+
+@media screen and (min-width: 676px) {
+  .quintoBloque {
+    display: flex;
+    flex-direction: row;
+    padding: 3% 10%;
+  }
+  .textoQuintoBloque {
+    align-content: center;
+  }
+  .btnInscripcion {
+    width: 200px;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 22.3%;
+  }
+  .tituloTres {
+    text-align: left;
+  }
+}
+
+/*Sexto Bloque*/
+
+.sextoBloque {
+  background-color: #d81919;
+  padding: 50px 15px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.textoSextoBloque .tituloTres {
+  color: #fff;
+}
+
+.textoSextoBloque .textoCuatro {
+  color: #fff;
+}
+
+.btnReservar {
+  width: 195px;
+  background: #d81919;
+  border: 2px solid #fff;
+  box-shadow: inset 0 0 0 0 #fff;
+  transition: ease-out 0.3s;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Mont Bold", sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+  margin: auto;
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 15px;
+}
+
+.btnReservar:hover {
+  box-shadow: inset 295px 0 0 0 #fff;
+  color: #d81919;
+}
+
+.btnReservar i {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.btnReservar:hover > i {
+  color: #d81919;
+}
+
+@media screen and (min-width: 767px) {
+  .sextoBloque {
+    display: flex;
+    flex-direction: row;
+    padding: 3% 10%;
+  }
+  .textoSextoBloque {
+    align-content: center;
+  }
+  .btnReservar {
+    margin-left: 20%;
+  }
+}
+
+/*Footer*/
+
+.footerFocusMind {
+  width: 100%;
+  height: 350px;
+  background-image: url("./img/focus-mind.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.btnArriba {
+  background-color: #140c83;
+  padding: 20px;
+  position: relative;
+}
+
+.btnArriba a {
+  text-decoration: none;
+}
+
+.btnArriba i {
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
